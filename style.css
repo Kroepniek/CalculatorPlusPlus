@@ -1,0 +1,152 @@
+body 
+{
+    background-color: #ffe7c2;
+    font-family: 'Gill Sans MT';
+}
+
+#Calculator
+{
+    background-color: #ffffff;
+    width: 300px;
+    height: 570px;
+    margin: auto;
+    margin-top: 120px;
+    box-shadow: 6px 8px 10px #8a7d52;
+    border-radius: 5px;
+}
+
+#Error
+{
+    background-color: #606060;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: -1000px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 6px 8px 10px #8a7d52;
+    transition-duration: 250ms;
+}
+
+.Error-message
+{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Answer
+{
+    background-color: #ffc400;
+    color: #ffffff;
+    width: 290px;
+    height: 100px;
+    margin: auto;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Forms
+{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#formElementA
+{
+    border: solid 1px #606060;
+    font-size: 18px;
+    margin: 12px auto;
+    padding: 5px;
+    border-radius: 3px;
+    transition-duration: 250ms;
+}
+
+#formElementA:focus
+{
+    outline: none !important;
+    box-shadow: 0 0 3px #ffc400;
+}
+
+#formElementB
+{
+    border: solid 1px #606060;
+    font-size: 18px;
+    margin: 12px auto;
+    padding: 5px;
+    border-radius: 3px;
+    transition-duration: 250ms;
+}
+
+#formElementB:focus
+{
+    outline: none !important;
+    box-shadow: 0 0 3px #ffc400;
+}
+
+.formElement
+{
+    border: solid 1px #606060;
+    font-size: 18px;
+    margin: 12px auto;
+    padding: 5px;
+    border-radius: 3px;
+    transition-duration: 250ms;
+}
+
+.formElement:focus
+{
+    outline: none !important;
+    box-shadow: 0 0 3px #ffc400;
+}
+
+.Buttons
+{
+    background-color: #ffc400;
+    width: 300px;
+    height: 123px;
+    margin: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.buttonElement
+{
+    background-color: #606060;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: auto 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 250ms;
+}
+
+.buttonElement:hover
+{
+    background-color: #505050;
+    box-shadow: 0 0 3px #ffc400;
+}
+
+.History
+{
+    background-color: #ffffff;
+    color: #000000;
+    width: 290px;
+    height: 150px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
